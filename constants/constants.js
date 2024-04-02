@@ -1,67 +1,69 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = "Barkin Karadeniz"
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATIONS = [`Fullstack Developer`, `Data Scientist`]
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
-};
+    Residence: "Germany",
+    City: "Berlin",
+    Age: "23",
+}
+
+export const LANGUAGES = {
+    Turkish: "Native",
+    English: "C2",
+    German: "C1",
+}
 
 export const SKILLS = [
-  {
-    title: 'MERN Stack Developer',
-    level: '75%',
-  },
-  {
-    title: 'React Developer',
-    level: '91%',
-  },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
-  {
-    title: 'Backend Developer',
-    level: '54%',
-  },
-  {
-    title: 'Technical Blogger',
-    level: '83%',
-  },
-];
+    {
+        title: "MERN Stack Developer",
+        level: "75%",
+    },
+    {
+        title: "React Developer",
+        level: "91%",
+    },
+    // {
+    //   title: 'Desktop Application Developer',
+    //   level: '75%',
+    // },
+    {
+        title: "Backend Developer",
+        level: "54%",
+    },
+    {
+        title: "Technical Blogger",
+        level: "83%",
+    },
+]
 
 export const TECH_STACK = [
-  'ReactJS',
-  'JavaScript',
-  'NextJS',
-  'TypeScript',
-  'NodeJS',
-  'Redux',
-  'Zustand',
-  'CSS',
-  'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
-  'REST API',
-  'MongoDB',
-  'MySQL',
-  'Git',
-  'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
-];
+    "ReactJS",
+    "VueJS",
+    "JavaScript",
+    "NextJS",
+    "TypeScript",
+    "NodeJS",
+    "Redux",
+    "CSS",
+    "SCSS",
+    "REST API",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "Jira",
+    "Figma",
+    "Python",
+    "Java (Spring Boot)",
+]
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
-};
+    EMAIL: "barkinkaradeniz@icloud.com",
+}
+
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
-};
+    GITHUB: "https://github.com/barkinkaradeniz-tr",
+    LINKEDIN: "https://www.linkedin.com/in/barkin-karadeniz/",
+    TWITTER: "https://twitter.com/KaradenizBarkin",
+}
