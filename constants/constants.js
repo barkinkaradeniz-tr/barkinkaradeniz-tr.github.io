@@ -5,7 +5,7 @@ export const DESIGNATIONS = [`Fullstack Developer`, `Data Scientist`]
 export const DETAILS = {
     Residence: "Germany",
     City: "Berlin",
-    Age: "23",
+    Age: "4 August 2000",
 }
 
 export const LANGUAGES = {
