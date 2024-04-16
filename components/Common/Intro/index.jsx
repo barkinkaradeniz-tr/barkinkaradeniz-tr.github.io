@@ -20,7 +20,7 @@ const Intro = () => {
     return (
         <>
             {/* fixed at top */}
-            <div className="headerr z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-56 top-0 flex items-center justify-center w-full flex-col px-4 gap-y-4">
+            <div className="headerr z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-64 top-0 flex items-center justify-center w-full flex-col px-4 gap-y-4">
                 <Image
                     className="w-36 h-36 rounded-full"
                     src={Barkin}
@@ -40,7 +40,7 @@ const Intro = () => {
             </div>
 
             {/* middle components */}
-            <div className="beech z-20 flex flex-col overflow-y-scroll pt-56 top-56 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4">
+            <div className="beech z-20 flex flex-col overflow-y-scroll pt-64 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4">
                 <Location />
                 <Languages />
                 <Tools />
