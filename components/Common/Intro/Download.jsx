@@ -1,13 +1,17 @@
-import Link from 'next/link';
+import Link from "next/link"
 const Download = ({ icon }) => {
-  return (
-    <>
-      <Link href='/Barkin-Karadeniz-CV-en.pdf' target='_blank' className='flex flex-row text-LightGray items-center gap-x-4 pb-14 pt-4'>
-        <span className='text-Snow'>Download Resume</span>
-        <span>{icon}</span>
-      </Link>
-    </>
-  );
-};
+    return (
+        <>
+            <Link
+                href="/Barkin-Karadeniz-Resume-en.pdf"
+                target="_blank"
+                className="flex flex-row text-LightGray items-center gap-x-4 pb-14 pt-4"
+            >
+                <span className="text-Snow">Download Resume</span>
+                <span>{icon}</span>
+            </Link>
+        </>
+    )
+}
 
-export default Download;
+export default Download
