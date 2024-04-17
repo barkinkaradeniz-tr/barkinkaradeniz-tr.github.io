@@ -32,6 +32,7 @@ const Banner = () => {
                                                         strings: [
                                                             "Fullstack Developer",
                                                             "Data Scientist",
+                                                            "Entrepreneur",
                                                         ],
                                                         autoStart: true,
                                                         loop: true,
