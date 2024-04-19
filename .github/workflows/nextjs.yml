@@ -76,10 +76,10 @@ jobs:
             - name: Build with Next.js
               run: ${{ steps.detect-package-manager.outputs.runner }} next build
             - name: Archive production artifacts
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-pages-artifact@v3
               with:
                   name: github-pages
-                  path: .next
+                  path: ./.next
 
     # Deployment job
     deploy:
