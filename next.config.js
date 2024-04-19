@@ -5,4 +5,5 @@ module.exports = {
         ignoreDuringBuilds: true,
     },
     output: "export",
+    basePath: "/PersonalWebsite",
 }
