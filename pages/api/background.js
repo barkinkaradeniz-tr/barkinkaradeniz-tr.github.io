@@ -3,61 +3,52 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: "Technical University of Berlin",
+                degree: "BS, Computer Science",
+                detail: "Bachelor's Degree in Computer Science from TU Berlin.",
+                year: "2019-2023",
             },
             {
                 id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
+                title: "German School of Istanbul",
+                degree: "High School",
+                detail: "Turkish and German High School Diploma from German School of Istanbul.",
+                year: "2014-2019",
             },
-            {
-                id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-                year: '2013-2015'
-            },
-        ]
+        ],
     },
     {
         expCards: [
             {
                 id: 1,
-                title: 'JMM Technologies',
-                role: 'Frontend Developer',
-                url: 'https://jmm.ltd/',
-                desc: 'As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                role: "Data Science Intern",
+                title: "DAI-Labor der TU Berlin",
+                url: "https://dai-labor.de/",
+                desc: "The content of the work I did for DAI-Labor is confidential, due to a non-disclosure agreement",
+                year: "10/2022 - 03/2023",
+                location: "Berlin, Germany",
             },
             {
                 id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
-                url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                role: "Junior Fullstack Software Engineer",
+                title: "Coyotiv GmbH",
+                url: "https://coyotiv.com/",
+                desc: "Started as an Intern and promoted to Junior Fullstack Software Engineer after few months",
+                year: "08/2021 - 10/2022",
+                location: "Berlin, Germany",
             },
             {
                 id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
+                role: "IT-Intern",
+                title: "Karden İnşaat A.Ş.",
+                url: "https://www.kardeninsaat.com.tr/",
+                desc: "Worked as an Intern in the IT Department of Karden İnşaat A.Ş. for 3 months",
+                year: "07/2020 - 09/2020",
+                location: "Istanbul, Turkiye",
             },
-
-        ]
-    }
+        ],
+    },
 ]
-
 
 export default function handler(req, res) {
     res.status(200).json(background)

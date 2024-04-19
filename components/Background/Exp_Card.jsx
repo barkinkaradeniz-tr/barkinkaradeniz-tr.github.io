@@ -1,13 +1,15 @@
-import React from 'react'
-import CardLayout from '../Common/CardLayout'
+import React from "react"
+import CardLayout from "../Common/CardLayout"
 
 const Exp_Card = ({ data }) => {
     return (
         <CardLayout>
             <div className="card_stylings transition px-8 py-10 ">
-                <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>
-                <div className="text-sm text-LightGray font-normal italic mt-1 ">
+                <div className="flex-initial text-[17px] text-Snow font-medium">
                     {data.role}
+                </div>
+                <div className="text-sm text-LightGray font-normal italic mt-1">
+                    {data.title}
                 </div>
                 <div className="text-LightGray text-xs opacity-50 font-normal italic">
                     <a href={`${data.url}`} target="_blank" rel="noreferrer">
