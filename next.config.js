@@ -6,4 +6,5 @@ module.exports = {
     },
     output: "export",
     basePath: "/PersonalWebsite",
+    distDir: "out",
 }
