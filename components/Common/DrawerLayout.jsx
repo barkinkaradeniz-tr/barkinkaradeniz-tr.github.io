@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const DrawerLayout = ({ setIsOpen, isOpen, children }) => {
     return (
@@ -16,14 +16,12 @@ const DrawerLayout = ({ setIsOpen, isOpen, children }) => {
                     (isOpen ? " translate-x-0 " : " translate-x-full ")
                 }
             >
-                <article className="relative h-screen">
-                    {children}
-                </article>
+                <article className="relative h-screen">{children}</article>
             </section>
             <section
                 className=" w-screen h-full cursor-pointer "
                 onClick={() => {
-                    setIsOpen(false);
+                    setIsOpen(false)
                 }}
             ></section>
         </main>
