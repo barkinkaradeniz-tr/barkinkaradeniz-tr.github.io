@@ -29,12 +29,12 @@ const Nav = ({ setIsOpen, isOpen }) => {
                         NavIcon={<HiIdentification />}
                         NavText={"Background"}
                     />
-                    <NavItem
+                    {/* <NavItem
                         setIsOpen={setIsOpen}
                         NavRoute={"/contact"}
                         NavIcon={<FaHandshake />}
                         NavText={"Contact"}
-                    />
+                    /> */}
                     {/* <NavItem setIsOpen={setIsOpen} NavRoute={'/portfolio'} NavIcon={<FiAward />} NavText={'Portfolio'} /> */}
                 </div>
             </div>

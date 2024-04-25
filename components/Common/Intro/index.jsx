@@ -6,6 +6,7 @@ import {
     FaLinkedin,
     FaTwitter,
 } from "react-icons/fa"
+import { HiMail } from "react-icons/hi"
 import Contact from "./Contact"
 import Download from "./Download"
 import Languages from "./Languages"
@@ -49,6 +50,14 @@ const Intro = () => {
 
             {/* fixed at bottom */}
             <div className="footer absolute flex justify-center space-x-6 text-xl items-center bottom-0 z-50 h-10 w-full bg-MidNightBlack text-Snow">
+                <Link
+                    className="hover:scale-125 ease-in-out duration-700"
+                    href="mailto:barkinkaradeniz@icloud.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <HiMail />
+                </Link>
                 <Link
                     href={SOCIAL_LINKS.GITHUB}
                     target="_blank"
