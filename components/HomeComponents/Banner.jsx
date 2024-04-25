@@ -11,15 +11,15 @@ const Banner = () => {
                     <div className="flex justify-center">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">
+                                <h1 className="text-4xl xl:text-5xl text-Snow font-bold">
                                     Hello, Let Me Introduce Myself!
                                 </h1>
                             </div>
                             <div className="">
-                                <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
+                                <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-base h-20 lg:h-auto">
                                     <span>
                                         {"<"}
-                                        <span className="text-Green sm:text-base xl:text-lg font-bold">
+                                        <span className="text-Green xl:text-lg font-bold">
                                             div
                                         </span>
                                         {">"}{" "}
@@ -40,7 +40,7 @@ const Banner = () => {
                                             </span>
                                         </span>{" "}
                                         {"</"}
-                                        <span className="text-Green sm:text-base xl:text-lg font-bold">
+                                        <span className="text-Green xl:text-lg font-bold">
                                             div
                                         </span>
                                         {">"}{" "}
