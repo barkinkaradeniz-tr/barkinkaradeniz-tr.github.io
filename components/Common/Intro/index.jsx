@@ -45,7 +45,6 @@ const Intro = () => {
                 <Languages />
                 <Tools />
                 <Contact />
-                <Download icon={<FaDownload />} />
             </div>
 
             {/* fixed at bottom */}
